@@ -1,11 +1,11 @@
 import {
+  FieldError,
   Form,
   FormError,
-  FieldError,
   Label,
-  TextField,
   Submit,
-} from '@redwoodjs/web'
+  TextField,
+} from '@redwoodjs/forms'
 
 const CSS = {
   label: 'block mt-6 text-gray-700 font-semibold',

@@ -1,5 +1,5 @@
 import PostsLayout from 'src/layouts/PostsLayout'
-import EditPostCell from 'src/components/EditPostCell'
+import EditPostCell from 'src/components/EditPostCell/EditPostCell'
 
 const EditPostPage = ({ id }) => {
   return (
