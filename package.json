@@ -8,6 +8,12 @@
   },
   "devDependencies": {
     "@redwoodjs/core": "^0.21.0",
+    "@storybook/addon-actions": "^6.1.10",
+    "@storybook/addon-essentials": "^6.1.10",
+    "@storybook/addon-links": "^6.1.10",
+    "@storybook/node-logger": "^6.1.10",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.10",
     "netlify-plugin-prisma-provider": "^0.3.0"
   },
   "eslintConfig": {
@@ -16,5 +22,10 @@
   "engines": {
     "node": ">=12",
     "yarn": ">=1.15"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
